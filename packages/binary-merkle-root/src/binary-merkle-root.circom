@@ -27,6 +27,8 @@ template BinaryMerkleRoot(MAX_DEPTH) {
     var root = 0;
 
     for (var i = 0; i < MAX_DEPTH; i++) {
+        indices[i] * (1 - indices[i]) === 0;
+        
         var isDepth = IsEqual()([depth, i]);
 
         roots[i] <== isDepth * nodes[i];
